@@ -1,0 +1,252 @@
+.standard {
+  margin: 0;
+  padding: 0;
+  min-height: 50vh;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(77, 6, 83, 0.247), transparent),
+    url("page_Img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.error {
+  font-weight: bolder;
+  color: brown;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/*navigation*/
+.navbar {
+  background-color: linear-gradient(transparent, rgba(75, 8, 83, 0.247));
+  align-items: center;
+  padding: 0.5%;
+}
+
+.navbar ul {
+  flex: 0.5%;
+  text-align: left;
+  padding-right: 3%;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 1% 3%;
+}
+
+.navbar ul li a {
+  color: #2a2245;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: large;
+  position: relative;
+}
+
+.navbar ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2a2245;
+  transition: width 0.3s;
+}
+
+.navbar ul li a:hover::after {
+  width: 50%;
+}
+
+/*container*/
+.container {
+  grid-column: 1;
+  grid-row: 2;
+
+  place-content: center;
+  align-content: space-around;
+  justify-content: center;
+  position: relative;
+
+  padding-left: 0%;
+  padding-right: 0%;
+  inset: 0;
+
+  display: grid;
+  grid-template-columns: repeat(8, 350px);
+  grid-auto-rows: 1;
+  gap: 0px;
+}
+/*column left*/
+.left {
+  grid-column: 1;
+  grid-row: 1;
+  justify-content: center;
+  position: relative;
+
+  background-color: #dda18bd9;
+  width: 100%;
+  height: 800px;
+  padding: 1%;
+
+  display: grid;
+  grid-template-columns: repeat(1, 250px);
+  grid-auto-rows: minmax (25px, auto);
+  gap: 0px;
+}
+
+.hyperlink {
+  grid-column: 1;
+  grid-row: 3;
+
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 250px);
+  grid-auto-rows: minmax (25px, auto);
+  justify-content: center;
+  align-content: space-between;
+  gap: 0px;
+  margin-bottom: 55%;
+}
+
+.left h2,
+.left h4,
+.avatar_img,
+.hyperlinks {
+  grid-column: 1;
+}
+
+.avatar_img {
+  width: 150px;
+  justify-items: center;
+  width: 180px;
+  padding: 3%;
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-top: 23%;
+  position: relative;
+}
+.left h2 {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 25px;
+  position: relative;
+  margin-left: 3%;
+  margin-right: 10%;
+  text-align: center;
+  color: #2a2144;
+}
+.left h4 {
+  color: #2a2144;
+}
+
+.chgP,
+.chgE,
+.delA {
+  grid-column: 1;
+
+  text-decoration: none;
+  cursor: pointer;
+  color: #1d1436;
+  font-weight: bolder;
+  position: relative;
+}
+.chgP {
+  grid-row: 2;
+}
+.chgE {
+  grid-row: 3;
+}
+.delA {
+  grid-row: 1;
+}
+.chgP img,
+.chgE img,
+.delA img {
+  width: 35px;
+  position: relative;
+}
+
+#back {
+  grid-row: 4;
+  padding: 1%;
+  margin-top: 15%;
+  margin-left: 75%;
+  margin-top: 3%;
+}
+
+.fakeside {
+  grid-column: 2 / span 6;
+  grid-row: 1;
+
+  place-content: center;
+  position: absolute;
+
+  background-color: rgba(245, 245, 245, 0.61);
+  padding: 4%;
+  width: 100%;
+  height: 758px;
+  inset: 0;
+  justify-content: center;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax (25px, auto);
+  gap: 0;
+}
+
+.changeEmail,
+.deleteAccount,
+.changePassword {
+  grid-column: 2 span 3;
+  grid-row: 1;
+
+  justify-content: center;
+  position: absolute;
+  padding: 4%;
+  height: 758px;
+  inset: 0;
+  margin-left: 13%;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax (25px, auto);
+  gap: 0;
+}
+
+.succes {
+  font-weight: bolder;
+  color: rgb(28, 124, 47);
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+form,
+form h1,
+form input,
+form button {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+form h1 {
+  grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  margin-top: 9%;
+  color: #2a2144;
+}
+
+input {
+  padding: 8px;
+  width: 250px;
+  border-color: #6b5d76;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  border-width: 1px;
+}

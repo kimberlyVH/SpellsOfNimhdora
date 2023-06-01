@@ -1,0 +1,242 @@
+.standard {
+  margin: 0;
+  padding: 0;
+  min-height: 50vh;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(77, 6, 83, 0.247), transparent),
+    url("page_Img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.error {
+  font-weight: bolder;
+  color: brown;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/*navigation*/
+.navbar {
+  background-color: linear-gradient(transparent, rgba(75, 8, 83, 0.247));
+  align-items: center;
+  padding: 0.5%;
+}
+
+.navbar ul {
+  flex: 0.5%;
+  text-align: left;
+  padding-right: 3%;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 1% 3%;
+}
+
+.navbar ul li a {
+  color: #2a2245;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: large;
+  position: relative;
+}
+
+.navbar ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2a2245;
+  transition: width 0.3s;
+}
+
+.navbar ul li a:hover::after {
+  width: 50%;
+}
+
+/*container*/
+.container {
+  grid-column: 1;
+  grid-row: 2;
+
+  place-content: center;
+  align-content: space-around;
+  align-items: center;
+  position: relative;
+
+  padding-left: 0%;
+  padding-right: 0%;
+  inset: 0;
+
+  display: grid;
+  grid-template-columns: repeat(8, 350px);
+  grid-auto-rows: 1;
+  gap: 0px;
+}
+/*column left*/
+.grid-container-left {
+  grid-column: 1;
+  grid-row: 1;
+  place-content: center;
+  align-content: space-around;
+  align-items: center;
+  position: relative;
+
+  background-color: #dda18bd9;
+  padding: 1%;
+  width: 100%;
+  height: 800px;
+
+  display: grid;
+  grid-template-columns: repeat(1, 250px);
+  grid-auto-rows: minmax (25px, auto);
+  gap: 0px;
+}
+/*column right*/
+.grid-container-right {
+  grid-column: 2 / span 7;
+  grid-row: 1;
+
+  place-content: center;
+  align-content: space-around;
+  align-items: center;
+  position: relative;
+
+  background-color: rgba(245, 245, 245, 0.61);
+  padding: 1%;
+  width: 100%;
+  height: 758px;
+  inset: 0;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax (25px, auto);
+  gap: 0;
+}
+
+.grid-container-right ul,
+.grid-container-right li {
+  grid-column: 1;
+  grid-row: 1;
+}
+.grid-container-right ul {
+  list-style: none;
+  margin-bottom: 25px;
+}
+.grid-container-right b {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #2a2144;
+}
+.grid-container-right li {
+  font-size: 15px;
+  font-weight: bolder;
+  color: #604972;
+  margin-left: 6%;
+  margin-bottom: 1%;
+}
+.grid-container-right h1 {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #2a2144;
+  margin-left: 7%;
+  margin-bottom: 15%;
+}
+
+.grid-container-left h2,
+.grid-container-left img,
+.hyperlinks {
+  grid-column: 1;
+  justify-items: center;
+}
+.grid-container-left h2,
+.grid-container-left img {
+  grid-row: 1;
+}
+.avatar_img {
+  grid-column: 1;
+  justify-items: center;
+  width: 180px;
+  padding: 3%;
+  margin-left: 10%;
+  margin-right: 15%;
+  margin-bottom: 20%;
+  position: relative;
+}
+.grid-container-left h2 {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 25px;
+  position: relative;
+  margin-top: 95%;
+  margin-left: 3%;
+  margin-right: 10%;
+  text-align: center;
+  color: #2a2144;
+}
+
+.hyperlinks a,
+.hyperlinks img {
+  grid-row: 2;
+}
+
+.hyperlinks {
+  grid-row: 2;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-auto-rows: minmax (25px, auto);
+  gap: 0px;
+
+  width: 300px;
+  position: relative;
+}
+#manage,
+#edit {
+  padding: 1%;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 0;
+  color: #1d1436;
+  font-weight: bolder;
+}
+#edit {
+  margin-right: 45%;
+  margin-top: 5%;
+}
+#edit,
+#edit img {
+  grid-column: 1;
+  grid-row: 2;
+}
+#edit img,
+#manage img {
+  width: 35px;
+}
+#manage,
+#manage img {
+  grid-column: 1;
+  grid-row: 1;
+}
+#manage {
+  margin-top: 3%;
+  margin-right: 30%;
+}
+#back {
+  grid-row: 4;
+  padding: 1%;
+  margin-top: 15%;
+  margin-left: 75%;
+  margin-top: 3%;
+}
