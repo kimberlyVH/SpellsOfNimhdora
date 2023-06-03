@@ -1,5 +1,5 @@
 <h1 align="center" id="title">Spells Of Nimhdora</h1>
-
+<p id="headerImg" align='center'><img src="sonPics/son_start.png" alt="project-startScreen"/><p>
 <p id="description">Base of a strategy cardgame. Layout created with own illustrations wich i made in procreate.</p>
 
 <h2>Project Screenshots:</h2>
