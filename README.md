@@ -4,25 +4,23 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="sonPics/son_start.png" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_Register.png" alt="project-screenshot" width="500px" height="281px/">
 
-<img src="sonPics/son_Register" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_login.png" alt="project-screenshot" width="500px" height="281px/">
 
-<img src="sonPics/son_login" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_gamestart.png" alt="project-screenshot" width="500px" height="281px/">
 
-<img src="sonPics/son_gamestart" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_drawcard.png" alt="project-screenshot" width="500px" height="281px/">
 
-<img src="sonPics/son_drawcard" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_ingame.png" alt="project-screenshot" width="500px" height="281px/">
 
-<img src="sonPics/son_ingame" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_gameEnd.png" alt="project-screenshot" width="500px" height="281px/">
 
-<img src="sonPics/son_gameEnd" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_profilepage.png" alt="project-screenshot" width="500px" height="281px/">
 
-<img src="sonPics/son_profilepage" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_profileEdit.png" alt="project-screenshot" width="500px" height="281px/">
 
-<img src="sonPics/son_profileEdit" alt="project-screenshot" width="500px" height="281px/">
-
-<img src="sonPics/son_manage" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_manage.png" alt="project-screenshot" width="500px" height="281px/">
 
   
   
