@@ -4,23 +4,23 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="sonPics/son_Register.png" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_Register.png" alt="project-screenshot"/>
 
-<img src="sonPics/son_login.png" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_login.png" alt="project-screenshot"/>
 
-<img src="sonPics/son_gamestart.png" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_gamestart.png" alt="project-screenshot"/>
 
-<img src="sonPics/son_drawcard.png" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_drawcard.png" alt="project-screenshot"/>
 
-<img src="sonPics/son_ingame.png" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_ingame.png" alt="project-screenshot"/>
 
-<img src="sonPics/son_gameEnd.png" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_gameEnd.png" alt="project-screenshot"/>
 
-<img src="sonPics/son_profilepage.png" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_profilepage.png" alt="project-screenshot"/>
 
-<img src="sonPics/son_profileEdit.png" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_profileEdit.png" alt="project-screenshot"/>
 
-<img src="sonPics/son_manage.png" alt="project-screenshot" width="500px" height="281px/">
+<img src="sonPics/son_manage.png" alt="project-screenshot"/>
 
   
   
@@ -30,7 +30,8 @@ Here're some of the project's best features:
 
 *   Register
 *   Login
-*   The ability to edit a mini profile page
+*   The ability to edit a mini profilepage
+*   The ability manage your account (change password, change e-mail, delete account)
 
   
   
